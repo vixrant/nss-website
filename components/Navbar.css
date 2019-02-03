@@ -1,0 +1,15 @@
+.Navbar {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+}
+
+.Navbar img {
+    height: 3rem;
+    width: auto;
+}
+
+.Navbar > .links {
+    width: 100%;
+    justify-content: space-around;
+    flex-grow: 2;
+}
