@@ -5,4 +5,4 @@ ID = 'dj-nss'
 [build]
     base = '/'
     publish = 'out'
-    command = 'npm run export'
+    command = 'npm i && npm run export'

@@ -80,7 +80,7 @@ class ResponsiveCarousel extends React.Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img style={{ width: "100%", height: "50vh" }} src={item.src} alt={item.altText} />
+          <img style={{ width: "100%", height: "60vh" }} src={item.src} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );

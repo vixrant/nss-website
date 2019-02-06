@@ -1,5 +1,13 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, NavLink, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap/';
+import {
+    Navbar,
+    Nav,
+    NavItem,
+    NavLink,
+    NavbarBrand,
+    NavbarToggler,
+    Collapse
+} from 'reactstrap/';
 import styles from './Navbar.css';
 
 const linksArray = [
@@ -30,9 +38,12 @@ const linksArray = [
 ];
 
 export default class CustomNavbar extends React.Component {
-
     state = {
         isCollapsed: false,
+    }
+
+    constructor(props) {
+        super(props);
     }
 
     toggle = () => {
@@ -53,7 +64,11 @@ export default class CustomNavbar extends React.Component {
                     {
                         linksArray.map((e,i) => (
                             <NavItem className={styles.NavLink} key={i}>
-                                <NavLink className="mx-3" href={e.href}> {e.text} </NavLink>
+                                <NavLink 
+                                    className={["mx-3", e.href == this.currentRoute ? 'active' : ''].join(' ')} 
+                                    href={e.href}>
+                                    {e.text}
+                                </NavLink>
                             </NavItem>
                         ))
                     }
