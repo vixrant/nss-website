@@ -37,23 +37,23 @@ export default class CustomNavbar extends React.Component {
 
     toggle = () => {
         this.setState(state => ({
-            isCollapsed: !state.isCollapsed,
+            iscollapsed: !state.iscollapsed,
         }));
     }
 
     render = () => (
-        <Navbar color='white' className={styles.Navbar} expand='md'>
+        <Navbar color='white' light className={styles.Navbar} expand='md'>
             <NavbarBrand href='/'>
                 <img src='/static/images/logo1.png' className={styles.logo} />
             </NavbarBrand>
 
             <NavbarToggler onClick={this.toggle} />
-            <Collapse navbar open={this.state.isCollapsed}>
-                <Nav className={styles.links} navbar>
+            <Collapse isOpen={this.state.iscollapsed} navbar>
+                <Nav className="ml-auto mr-auto" navbar>
                     {
-                        linksArray.map(e => (
-                            <NavItem>
-                                <NavLink href={e.href}> {e.text} </NavLink>
+                        linksArray.map((e,i) => (
+                            <NavItem key={i}>
+                                <NavLink className="mx-3" href={e.href}> {e.text} </NavLink>
                             </NavItem>
                         ))
                     }
