@@ -52,7 +52,7 @@ export default class CustomNavbar extends React.Component {
                 <Nav className="ml-auto mr-auto" navbar>
                     {
                         linksArray.map((e,i) => (
-                            <NavItem key={i}>
+                            <NavItem className={styles.NavLink} key={i}>
                                 <NavLink className="mx-3" href={e.href}> {e.text} </NavLink>
                             </NavItem>
                         ))
