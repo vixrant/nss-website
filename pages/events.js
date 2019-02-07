@@ -1,8 +1,8 @@
 import React from 'react';
-import BasicNav from '../layouts/BasicNav';
+import BasicNavLayout from '../layouts/BasicNavLayout';
 
 export default () => (
-    <BasicNav title="Events">
+    <BasicNavLayout title="Events">
         <div>This page describes events.</div> 
-    </BasicNav>
+    </BasicNavLayout>
 )
