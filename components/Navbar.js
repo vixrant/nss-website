@@ -53,7 +53,7 @@ export default class CustomNavbar extends React.Component {
     }
 
     render = () => (
-        <Navbar color='white' light className={styles.Navbar} expand='md'>
+        <Navbar sticky={'top'} color='white' light className={styles.Navbar} expand='md'>
             <NavbarBrand href='/'>
                 <img src='/static/images/logo1.png' className={styles.logo} />
             </NavbarBrand>

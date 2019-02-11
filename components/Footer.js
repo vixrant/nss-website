@@ -11,7 +11,7 @@ class Footer extends Component {
 					      	<div className="row">
 					        	<div className="col-md-12 py-2">
 
-							            <a className="m-2 btn btn-default">
+							            <a href="https://www.facebook.com/djsce.nss" className="m-2 btn btn-default">
 							              	<i className="fab fa-facebook-f fa-lg white-text m-2 fa-2x"> </i>
 							            </a> 
 
@@ -19,7 +19,7 @@ class Footer extends Component {
 							              	<i className="fab fa-twitter fa-lg white-text m-2 fa-2x"> </i>
 							            </a>
 
-							            <a className="m-2 btn btn-default">
+							            <a href="https://www.instagram.com/nss_djsanghvi/" className="m-2 btn btn-default">
 							              	<i className="fab fa-instagram fa-lg white-text m-2 fa-2x"> </i>
 							            </a>
 					        	</div>
