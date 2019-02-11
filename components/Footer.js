@@ -36,6 +36,7 @@ class Footer extends Component {
 	        		}
 
 					footer {
+						margin-top: 5vh;
 						padding: 5vh;
 						font-family: 'Century Gothic';
 						color: white;

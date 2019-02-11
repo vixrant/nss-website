@@ -1,0 +1,19 @@
+.Card {
+	margin: 2vh; 
+	border: 1px solid #b5b5b5;
+	width: 50vh;
+	display: inline-flex;
+}
+
+.CardImg {
+	height: 35vh; 
+}
+
+.CardTitle {
+	font-family: 'Century Gothic';
+	font-size: 3vh;
+}
+
+.CardText {
+	font-family: 'Century Gothic';
+}
