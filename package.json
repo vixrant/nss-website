@@ -9,7 +9,8 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "echo 'STARTING PRODUCTION NOT DEVELOPMENT' && next start"
+		"export": "next build && next export",
+		"start": "next start"
 	},
 	"devDependencies": {
 		"eslint": "^5.13.0"

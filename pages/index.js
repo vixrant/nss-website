@@ -1,15 +1,13 @@
 import React from 'react';
-
-import Head from '../components/Head';
-import Navbar from '../components/Navbar';
+import BasicNav from '../layouts/BasicNav';
 import Carousel from '../components/Carousel';
 import Footer from '../components/Footer'
 
 export default () => (
-    <React.Fragment>
-        <Head title='Home Page' />
-        <Navbar />
-        <Carousel />
-        <Footer />
+	<React.Fragment>
+	    <BasicNav title="CAMP">
+	        <Carousel />
+	    </BasicNav>
+	    <Footer />
     </React.Fragment>
-);
+)
