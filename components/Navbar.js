@@ -4,27 +4,27 @@ import styles from './Navbar.css';
 
 const linksArray = [
     {
-        text: 'Home',
+        text: 'HOME',
         href: '/',
     },
     {
-        text: 'Events',
+        text: 'EVENTS',
         href: '/events',
     },
     {
-        text: 'Technical',
+        text: 'TECHNICAL',
         href: '/tech',
     },
     {
-        text: 'Camp',
+        text: 'CAMP',
         href: '/camp',
     },
     {
-        text: 'Upcoming Events',
+        text: 'UPCOMING EVENTS',
         href: '/upcoming',
     },
     {
-        text: 'About Us',
+        text: 'ABOUT US',
         href: '/about',
     },
 ];
