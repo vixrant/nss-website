@@ -1,6 +1,7 @@
 .Navbar {
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     justify-content: space-between;
+    position: sticky;
 }
 
 .Navbar img {
@@ -16,4 +17,6 @@
 
 .NavLink {
 	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Century Gothic';
 }

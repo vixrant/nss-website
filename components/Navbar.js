@@ -12,27 +12,27 @@ import styles from './Navbar.css';
 
 const linksArray = [
     {
-        text: 'Home',
+        text: 'HOME',
         href: '/',
     },
     {
-        text: 'Events',
+        text: 'EVENTS',
         href: '/events',
     },
     {
-        text: 'Technical',
+        text: 'TECHNICAL',
         href: '/tech',
     },
     {
-        text: 'Camp',
+        text: 'CAMP',
         href: '/camp',
     },
     {
-        text: 'Upcoming Events',
+        text: 'UPCOMING EVENTS',
         href: '/upcoming',
     },
     {
-        text: 'About Us',
+        text: 'ABOUT US',
         href: '/about',
     },
 ];
@@ -53,7 +53,7 @@ export default class CustomNavbar extends React.Component {
     }
 
     render = () => (
-        <Navbar color='white' light className={styles.Navbar} expand='md'>
+        <Navbar sticky={'top'} color='white' light className={styles.Navbar} expand='md'>
             <NavbarBrand href='/'>
                 <img src='/static/images/logo1.png' className={styles.logo} />
             </NavbarBrand>
