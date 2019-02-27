@@ -1,3 +1,8 @@
+.Main {
+  	margin: 0;
+  	padding: 0;
+}
+
 .Card {
 	margin: 2vh; 
 	border: 1px solid #b5b5b5;
@@ -6,8 +11,10 @@
 }
 
 .CardImg {
-	height: 35vh; 
+	height: 35vh;
+	object-fit: cover; 
 }
+
 
 .CardTitle {
 	font-family: 'Century Gothic';
@@ -17,3 +24,4 @@
 .CardText {
 	font-family: 'Century Gothic';
 }
+
