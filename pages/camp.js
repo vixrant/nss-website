@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
-import BasicNav from '../layouts/BasicNav';
+import BasicNavLayout from '../layouts/BasicNavLayout';
 import styles from './common.css';
 
 const cardContent = [
@@ -55,27 +55,28 @@ const cardContent = [
 export default () => (
 	<React.Fragment>
 		<div>
-		    <BasicNav title="CAMP" />
-		    <Jumbotron>
-		        <h2 className="display-4">NSS Camp</h2>
-		        <hr className="my-2" />		        
-		        <p className="lead">As a part of a government unit, the unit is permitted to adopt a village for a period of 5 years to facilitate positive impacts among rural & tribal communities. DJNSS thus has adopted Ambewadi and Narpad, Dahanu. In the year of 2018-2019 NSS was responsible for conducting the following events in these villages.</p>	    	
-		    </Jumbotron>
-		    <br/><br/>
-		    <center>
-	    		{
-	    			cardContent.map((content,i) => (
-			      		<Card className={styles.Card} key={i}>
-					        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
-					        <CardBody>
-						        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
-						   	    <CardText className={styles.CardText}>{content.text}</CardText>
-			        		</CardBody>
-			      		</Card>	
-			      	))
-	      		}  
-	      	</center>	
-	      	<br/><br/>	    
+		    <BasicNavLayout title="CAMP">
+			    <Jumbotron>
+			        <h2 className="display-4">NSS Camp</h2>
+			        <hr className="my-2" />		        
+			        <p className="lead">As a part of a government unit, the unit is permitted to adopt a village for a period of 5 years to facilitate positive impacts among rural & tribal communities. DJNSS thus has adopted Ambewadi and Narpad, Dahanu. In the year of 2018-2019 NSS was responsible for conducting the following events in these villages.</p>	    	
+			    </Jumbotron>
+			    <br/><br/>
+			    <center>
+		    		{
+		    			cardContent.map((content,i) => (
+				      		<Card className={styles.Card} key={i}>
+						        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
+						        <CardBody>
+							        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
+							   	    <CardText className={styles.CardText}>{content.text}</CardText>
+				        		</CardBody>
+				      		</Card>	
+				      	))
+		      		}  
+		      	</center>	
+		      	<br/><br/>	    
+		    </BasicNavLayout>
 		</div>
 	</React.Fragment>
 )

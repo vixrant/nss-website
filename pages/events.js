@@ -1,8 +1,9 @@
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
-import BasicNav from '../layouts/BasicNav';
-/*import Footer from '../components/Footer';*/
 import styles from './common.css';
+import BasicNavLayout from '../layouts/BasicNavLayout';
+import Footer from '../components/Footer';
+
 
 const cardContent = [
 	{
@@ -75,33 +76,34 @@ const cardContent = [
 		title: 'Stem Cell Donation Drive' ,
 		text: 'The NSS Unit of D.J. Sanghvi college, in co-ordination with the Marrow Donor Registry (India), successfully carried out the Stem Cell Donation drive within the college premises on the 18th January, 2019. A day before the drive, Dr. Praveen Clement had educated the students of each class of the college about Stem Cell Donation and encouraged everyone to join in for the good cause. On the day of the drive, a team of 6 people from the MDRI arrived to carry out the procedure. The donors filled up the form, went to the registration desk, collected empty vials from there and headed to the nurses, who filled up the vial with 4 mL of donor blood. It was a very safe procedure. The total number of donors pledging their stem cells in D.J. Sanghvi were greater than most drives that the MDRI officials had carried out in the recent days.' ,
 	},	
-	{
-		src: '' ,
-		title: '' ,
-		text: '' ,
-	},									
 ];
+
+// {
+// 	src: '' ,
+// 	title: '' ,
+// 	text: '' ,
+// }
 
 export default () => (
 	<React.Fragment>
-	<div className={styles.Main}>
-	    <BasicNav title="Events" /> 
-	    <br/><br/>
-	    <center>
-    		{
-    			cardContent.map((content,i) => (
-		      		<Card className={styles.Card} key={i}>
-				        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
-				        <CardBody>
-					        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
-					   	    <CardText className={styles.CardText}>{content.text}</CardText>
-		        		</CardBody>
-		      		</Card>	
-		      	))
-      		}  
-      	</center>
-      	<br/><br/>
-
-    </div>
+		<div className={styles.Main}>
+			<BasicNavLayout title="Events" >
+			    <br/><br/>
+			    <center>
+		    		{
+		    			cardContent.map((content,i) => (
+				      		<Card className={styles.Card} key={i}>
+						        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
+						        <CardBody>
+							        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
+							   	    <CardText className={styles.CardText}>{content.text}</CardText>
+				        		</CardBody>
+				      		</Card>	
+				      	))
+		      		}  
+		      	</center>
+		      	<br/><br/>
+		    </BasicNavLayout>
+	    </div>
 	</React.Fragment>    
 )
