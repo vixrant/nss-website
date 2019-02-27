@@ -4,7 +4,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, Car
 import BasicNavLayout from '../layouts/BasicNavLayout';
 import Footer from '../components/Footer';
 
-import styles from './event.css';
+import styles from './events.css';
 
 const cardContent = [
 	{

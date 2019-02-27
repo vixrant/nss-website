@@ -4,11 +4,15 @@ import Head from '../components/Head';
 import Navbar from '../components/Navbar';
 import Footer from  '../components/Footer';
 
+import styles from "./BasicNavLayout.css";
+
 export default ({ title, children }) => (
-    <React.Fragment>
+    <div className={styles.App}>
         <Head title={title} />
         <Navbar />
-        { children }
+        <div className={styles.layout}>
+            { children }
+        </div>
         <Footer />
-    </React.Fragment>
+    </div>
 );
