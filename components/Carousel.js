@@ -33,7 +33,7 @@ const items = [
     header: 'Slide 2 Header'*/
   },    
   {
-    src: '../static/images/home/nss5.jpg',
+    src: '../static/images/home/nss5.jpeg',
     altText: 'Slide 5',
 /*    caption: 'Slide 3',
     header: 'Slide 3 Header'*/
@@ -80,7 +80,7 @@ class ResponsiveCarousel extends React.Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img style={{ width: "100%", height: "30vh", objectFit: "contain" }} src={item.src} alt={item.altText} />
+          <img style={{ width: "100%", objectFit: "contain" }} src={item.src} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );

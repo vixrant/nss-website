@@ -8,8 +8,13 @@ const cardContent = [
 	{
 		src: '../static/images/camp/shramdan.jpg' ,
 		title: 'Road Building' ,
-		text: "Two stretches of roads were built, one of which included a lane which hadn't been repaired in 15 years." ,
+		text: "Two stretches of roads, both approximately 80 metres each, were laid down in Ambewadi village. One of the roads constructed was considerably a rough patch en route the village, which was frequently traversed by the villagers." ,
 	},	
+	{
+		src: '../static/images/camp/shramdan2.jpg' ,
+		title: 'Road Building' ,
+		text: "The other stretch of road chosen to reconstruct was a very small lane that was in an extremely dilapidated condition and had not been repaired since the past 15 years. The volunteers managed to reconstruct these stretches to a state where the villagers could travel daily without the fear of being hurt." ,
+	},		
 	{
 		src: '../static/images/camp/medical_camp.jpg' ,
 		title: 'Medical Camp' ,
