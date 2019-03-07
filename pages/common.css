@@ -1,6 +1,7 @@
 .Main {
   	margin: 0;
   	padding: 0;
+  	font-family: 'Century Gothic';
 }
 
 .Card {
@@ -25,3 +26,22 @@
 	font-family: 'Century Gothic';
 }
 
+.Heading {
+	background-color: #D3D3D3; 
+	border-radius: 2vh; 
+	padding: 3vh;
+	text-align: center;	
+}
+
+.Image {
+	border-radius: 3vh;
+	height: 40vh;
+	width: 100%;
+}
+
+.Row {
+	box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.15);
+	border-radius: 4vh;
+	padding: 5vh;
+	border: 1px solid gray;
+}

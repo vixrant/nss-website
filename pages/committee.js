@@ -3,6 +3,6 @@ import BasicNavLayout from '../layouts/BasicNavLayout';
 
 export default () => (
     <BasicNavLayout title="Upcoming Events">
-        <div>This page describes upcoming.</div> 
+        <div>This page describes committee.</div> 
     </BasicNavLayout>
 )

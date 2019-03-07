@@ -16,7 +16,11 @@ export default () => (
 		<div className={styles.Main}>
 			<BasicNavLayout title="Technical" >
 			    <br/><br/>
-			    <center>
+			    <div className="container">
+			    	<h3 className={styles.Heading}>Technical Events</h3>
+			    </div>
+			    <br/><br/>			    
+			    <center className="wow fadeInUp">
 		    		{
 		    			cardContent.map((content,i) => (
 				      		<Card className={styles.Card} key={i}>

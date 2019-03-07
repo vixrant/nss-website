@@ -12,7 +12,7 @@ export default () => (
 		        <br/><br/>
 			        <Container>
 			        	<Row>
-			        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
+			        		<Col xs="12" sm="12" md="6" lg="6" className="my-3 wow slideInLeft">
 			        			<img className="img-fluid" src="../static/images/principal.jpg" />
 			        		</Col>
 			        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">

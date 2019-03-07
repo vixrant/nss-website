@@ -33,7 +33,7 @@ const items = [
     header: 'Slide 2 Header'*/
   },    
   {
-    src: '../static/images/home/nss5.jpeg',
+    src: '../static/images/home/nss5.jpg',
     altText: 'Slide 5',
 /*    caption: 'Slide 3',
     header: 'Slide 3 Header'*/

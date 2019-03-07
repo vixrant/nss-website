@@ -67,7 +67,7 @@ export default () => (
 			        <p className="lead">As a part of a government unit, the unit is permitted to adopt a village for a period of 5 years to facilitate positive impacts among rural & tribal communities. DJNSS thus has adopted Ambewadi and Narpad, Dahanu. In the year of 2018-2019 NSS was responsible for conducting the following events in these villages.</p>	    	
 			    </Jumbotron>
 			    <br/><br/>
-			    <center>
+			    <center className="wow fadeInUp">
 		    		{
 		    			cardContent.map((content,i) => (
 				      		<Card className={styles.Card} key={i}>

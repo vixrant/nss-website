@@ -1,17 +1,21 @@
 import React from 'react';
 import {
-    Navbar,
-    Nav,
-    NavItem,
-    NavLink,
-    NavbarBrand,
-    NavbarToggler,
-    Collapse
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from 'reactstrap/';
 import styles from './Navbar.css';
 
 const linksArray = [
-    {
+/*    {
         text: 'Home',
         href: '/',
     },
@@ -22,14 +26,14 @@ const linksArray = [
     {
         text: 'Technical',
         href: '/tech',
-    },
+    },*/
     {
         text: 'Camp',
         href: '/camp',
     },
     {
-        text: 'Upcoming Events',
-        href: '/upcoming',
+        text: 'Committee',
+        href: '/committee',
     },
     {
         text: 'About Us',
@@ -61,6 +65,48 @@ export default class CustomNavbar extends React.Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.iscollapsed} navbar>
                 <Nav className="ml-auto mr-auto" navbar>
+                    <NavItem className={styles.NavLink}>
+                        <NavLink className="mx-3" href="/">Home</NavLink>
+                    </NavItem>                
+                    <UncontrolledDropdown className={styles.NavLink} nav inNavbar>
+                        <DropdownToggle className="mx-3" nav caret>
+                            Events
+                        </DropdownToggle>
+                        <DropdownMenu right>
+                            <DropdownItem className={styles.NavLink}>
+                                <NavLink href="/outdoor">
+                                    Outdoor
+                                </NavLink>
+                            </DropdownItem>
+                            <DropdownItem className={styles.NavLink}>
+                                <NavLink href="/college">
+                                    College
+                                </NavLink>
+                            </DropdownItem>
+                            <DropdownItem className={styles.NavLink}>
+                                <NavLink href="/university">
+                                    University
+                                </NavLink>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledDropdown>   
+                    <UncontrolledDropdown className={styles.NavLink} nav inNavbar>
+                        <DropdownToggle className="mx-3" nav caret>
+                            Projects
+                        </DropdownToggle>
+                        <DropdownMenu right>
+                            <DropdownItem className={styles.NavLink}>
+                                <NavLink href="/technical">
+                                    Technical
+                                </NavLink>
+                            </DropdownItem>
+                            <DropdownItem className={styles.NavLink}>
+                                <NavLink href="/unique">
+                                    Unique
+                                </NavLink>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledDropdown>                                 
                     {
                         linksArray.map((e,i) => (
                             <NavItem className={styles.NavLink} key={i}>
