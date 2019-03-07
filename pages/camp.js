@@ -1,8 +1,9 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
+
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import styles from './common.css';
+import './common.css';
 
 const cardContent = [
 	{
@@ -70,11 +71,11 @@ export default () => (
 			    <center className="wow fadeInUp">
 		    		{
 		    			cardContent.map((content,i) => (
-				      		<Card className={styles.Card} key={i}>
-						        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
+				      		<Card className="Card" key={i}>
+						        <CardImg className="CardImg" top src={content.src} alt="Card image" />
 						        <CardBody>
-							        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
-							   	    <CardText className={styles.CardText}>{content.text}</CardText>
+							        <CardTitle className="CardTitle">{content.title}</CardTitle>
+							   	    <CardText className="CardText">{content.text}</CardText>
 				        		</CardBody>
 				      		</Card>	
 				      	))

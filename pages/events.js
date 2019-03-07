@@ -1,9 +1,8 @@
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
-import styles from './common.css';
-import BasicNavLayout from '../layouts/BasicNavLayout';
-import Footer from '../components/Footer';
 
+import BasicNavLayout from '../layouts/BasicNavLayout';
+import './common.css';
 
 const cardContent = [
 	{
@@ -85,25 +84,21 @@ const cardContent = [
 // }
 
 export default () => (
-	<React.Fragment>
-		<div className={styles.Main}>
-			<BasicNavLayout title="Events" >
-			    <br/><br/>
-			    <center>
-		    		{
-		    			cardContent.map((content,i) => (
-				      		<Card className={styles.Card} key={i}>
-						        <CardImg className={styles.CardImg} top src={content.src} alt="Card image" />
-						        <CardBody>
-							        <CardTitle className={styles.CardTitle}>{content.title}</CardTitle>
-							   	    <CardText className={styles.CardText}>{content.text}</CardText>
-				        		</CardBody>
-				      		</Card>	
-				      	))
-		      		}  
-		      	</center>
-		      	<br/><br/>
-		    </BasicNavLayout>
-	    </div>
-	</React.Fragment>    
+	<BasicNavLayout title="Events" className="Main">
+		<br/><br/>
+		<center>
+			{
+				cardContent.map((content,i) => (
+					<Card className="Card" key={i}>
+						<CardImg className="CardImg" top src={content.src} alt="Card image" />
+						<CardBody>
+							<CardTitle className="CardTitle">{content.title}</CardTitle>
+							<CardText className="CardText">{content.text}</CardText>
+						</CardBody>
+					</Card>	
+				))
+			}  
+		</center>
+		<br/><br/>
+	</BasicNavLayout>
 )

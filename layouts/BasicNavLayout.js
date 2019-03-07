@@ -4,13 +4,13 @@ import Head from '../components/Head';
 import Navbar from '../components/Navbar';
 import Footer from  '../components/Footer';
 
-import styles from "./BasicNavLayout.css";
+import "./BasicNavLayout.css";
 
-export default ({ title, children }) => (
-    <div className={styles.App}>
+export default ({ title, children, className="" }) => (
+    <div className={["App", ...className].join(" ")}>
         <Head title={title} />
         <Navbar />
-        <div className={styles.layout}>
+        <div className="layout">
             { children }
         </div>
         <Footer />

@@ -2,9 +2,9 @@ import React from 'react';
 import { Jumbotron } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
-import styles from './common.css';
+
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import Footer from '../components/Footer';
+import './common.css';
 
 const first = [
 	
@@ -13,15 +13,15 @@ const first = [
 export default () => (
 	<React.Fragment>
 		<BasicNavLayout title="Unique Events">
-			<div className={styles.Main}>
+			<div className="Main">
 				<br/><br/>
 				<Container>
 					<center>
-						<h3 className={styles.Heading}>Project Parichay</h3>
+						<h3 className="Heading">Project Parichay</h3>
 						<br/><br/>			
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className={styles.Image} src="../static/images/nss1.jpg" />
+					        	<img className="Image" src="../static/images/nss1.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 1</strong></h4>
@@ -30,20 +30,20 @@ export default () => (
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
 					        	<h4><strong>Parichay Week 2</strong></h4>
 					        	<p>	After an active session on Postures and their importance in Personality Development the previous week, the students of grades 8 and 9 of St. Mary’s, Kandivali were excited to learn more. The second session started with a revision. As a way to test the student's learnings, each was asked to introduce themselves in a line; it was observed that their posture and confidence had improved remarkably over the week. The new lesson included a crucial parameter in the overall development of personality, which is even used by MNCs in their day-to-day functioning: SWOT Analysis. SWOT stands for Strength, Weakness, Opportunity, Threat. The idea is to list down each of these in a tabular format, to devise methods of self-improvement! The mesmerised students were asked to try it out for themselves. Each one made a list of the four parameters. It was noted that each student was afraid of failing. The volunteers made them understand the necessity of threats in life; how failures trigger a bigger success! The students seemed to be enjoying the session and promised to work on their weaknesses as an assignment!
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className={styles.Image} src="../static/images/nss2.jpg" />			      
+					        	<img className="Image" src="../static/images/nss2.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className={styles.Image} src="../static/images/nss3.jpg" />
+					        	<img className="Image" src="../static/images/nss3.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 3</strong></h4>
@@ -52,20 +52,20 @@ export default () => (
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
 					        	<h4><strong>Parichay Week 4</strong></h4>
 					        	<p>To help students become great leaders in future, DJNSS took the 4th and the last session of Parichay on speech and elocution. It took a powerful speech for Mark Antony to gain justice for his friend Julius Caesar, for Gandhiji to unite India against the British. The St. Mary's students were explained this and taught on how to give speeches. Not only words are important in speeches but also gestures, speaking pace and voice modulation. Great speeches go hand in hand with great convincing skills. It holds the power to turn a crowd into a mob or a mob into a peaceful gathering. Keeping this in mind, a practice debate session was also held with the students that day. The mock debate was a practice for their upcoming debate competition. They enthusiastically participated and implemented their freshly taught skills. Delivering a good speech is a power to muster rather than having.
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className={styles.Image} src="../static/images/nss4.jpg" />			      
+					        	<img className="Image" src="../static/images/nss4.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className={styles.Image} src="../static/images/nss5.jpg" />
+					        	<img className="Image" src="../static/images/nss5.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Quiz and Debate Competition</strong></h4>
@@ -74,14 +74,14 @@ export default () => (
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
-					    <Row className={styles.Row}>
+					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
 					        	<h4><strong>Parichay Annual Sports Day 4</strong></h4>
 					        	<p>To help students imbibe the qualities essential for this competitive world, DJNSS organised the ANNUAL SPORTS DAY  for the secondary section of St. Mary's School, Kandivali as a part of Project Parichay. The students were divided into two groups: 5-6-7 and 8-9. They were further subdivided into four houses and all the activities conducted were inter-house. The sports activities for the day included Kho-Kho, Relay, Tug of war and Throwball Sports helps strengthen one's PERSONALITY and this is what Project Parichay aims at. The appreciation from the Principal and the happiness on the faces of the little ones made the event a successful one!
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className={styles.Image} src="../static/images/nss4.jpg" />			      
+					        	<img className="Image" src="../static/images/nss4.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>			   				   				   		

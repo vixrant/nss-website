@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import {} from 'reactstrap';
 
-import styles from "./Footer.css";
+import "./Footer.css";
 
 		// return(
 		// 	<div>
@@ -55,11 +55,11 @@ import styles from "./Footer.css";
 </div> */}
 
 const Footer = () => (
-	<div className={styles.Bottom}>
-		<footer className={styles.Footer}>
-			<img src='/static/images/FRONT.png' className={styles.Tree} />
+	<div className="Bottom">
+		<footer className="Footer">
+			<img src='/static/images/FRONT.png' className="Tree" />
 		</footer>
-		<div className={styles.Copyright}> © DJSCE NSS Unit, 2019 </div>
+		<div className="Copyright"> © DJSCE NSS Unit, 2019 </div>
 	</div>
 );
 

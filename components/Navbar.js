@@ -12,7 +12,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap/';
-import styles from './Navbar.css';
+import './Navbar.css';
 
 const linksArray = [
 /*    {
@@ -57,50 +57,50 @@ export default class CustomNavbar extends React.Component {
     }
 
     render = () => (
-        <Navbar sticky={'top'} color='white' light className={styles.Navbar} expand='md'>
+        <Navbar sticky={'top'} color='white' light className="Navbar" expand='md'>
             <NavbarBrand href='/'>
-                <img src='/static/images/logo1.png' className={styles.logo} />
+                <img src='/static/images/logo1.png' className="logo" />
             </NavbarBrand>
 
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.iscollapsed} navbar>
                 <Nav className="ml-auto mr-auto" navbar>
-                    <NavItem className={styles.NavLink}>
+                    <NavItem className="NavLink">
                         <NavLink className="mx-3" href="/">Home</NavLink>
                     </NavItem>                
-                    <UncontrolledDropdown className={styles.NavLink} nav inNavbar>
+                    <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>
                             Events
                         </DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem className={styles.NavLink}>
+                            <DropdownItem className="NavLink">
                                 <NavLink href="/outdoor">
                                     Outdoor
                                 </NavLink>
                             </DropdownItem>
-                            <DropdownItem className={styles.NavLink}>
+                            <DropdownItem className="NavLink">
                                 <NavLink href="/college">
                                     College
                                 </NavLink>
                             </DropdownItem>
-                            <DropdownItem className={styles.NavLink}>
+                            <DropdownItem className="NavLink">
                                 <NavLink href="/university">
                                     University
                                 </NavLink>
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>   
-                    <UncontrolledDropdown className={styles.NavLink} nav inNavbar>
+                    <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>
                             Projects
                         </DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem className={styles.NavLink}>
+                            <DropdownItem className="NavLink">
                                 <NavLink href="/technical">
                                     Technical
                                 </NavLink>
                             </DropdownItem>
-                            <DropdownItem className={styles.NavLink}>
+                            <DropdownItem className="NavLink">
                                 <NavLink href="/unique">
                                     Unique
                                 </NavLink>
@@ -109,7 +109,7 @@ export default class CustomNavbar extends React.Component {
                     </UncontrolledDropdown>                                 
                     {
                         linksArray.map((e,i) => (
-                            <NavItem className={styles.NavLink} key={i}>
+                            <NavItem className="NavLink" key={i}>
                                 <NavLink 
                                     className={["mx-3", e.href == this.currentRoute ? 'active' : ''].join(' ')} 
                                     href={e.href}>
@@ -122,7 +122,7 @@ export default class CustomNavbar extends React.Component {
             </Collapse>
 
             <NavbarBrand href='/'>
-                <img src='/static/images/logo4.png' className={styles.logo} />
+                <img src='/static/images/logo4.png' className="logo" />
             </NavbarBrand>
         </Navbar>
     );
