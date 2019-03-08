@@ -62,7 +62,6 @@ export default class CustomNavbar extends React.Component {
                 <img src='/static/images/logo1.png' className="logo" />
             </NavbarBrand>
 
-            <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.iscollapsed} navbar>
                 <Nav className="ml-auto mr-auto" navbar>
                     <NavItem className="NavLink">
@@ -124,6 +123,8 @@ export default class CustomNavbar extends React.Component {
             <NavbarBrand href='/'>
                 <img src='/static/images/logo4.png' className="logo" />
             </NavbarBrand>
+
+            <NavbarToggler onClick={this.toggle} />
         </Navbar>
     );
 };

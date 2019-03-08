@@ -40,7 +40,7 @@ import "./Footer.css";
 		// 			footer {
 		// 				margin-top: 5vh;
 		// 				padding: 5vh;
-		// 				font-family: 'Century Gothic';
+		// 				font-family: Arial, Helvetica, sans-serif;
 		// 				color: white;
 		// 				background-color: #323232;
 		// 			}
