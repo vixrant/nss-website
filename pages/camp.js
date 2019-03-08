@@ -61,7 +61,7 @@ const cardContent = [
 export default () => (
 	<React.Fragment>
 		<div>
-		    <BasicNavLayout title="CAMP">
+		    <BasicNavLayout title="CAMP" className="Main">
 			    <Jumbotron>
 			        <h2 className="display-4">NSS Camp</h2>
 			        <hr className="my-2" />		        

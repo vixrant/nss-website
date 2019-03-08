@@ -7,7 +7,7 @@ import Footer from  '../components/Footer';
 import "./BasicNavLayout.css";
 
 export default ({ title, children, className="" }) => (
-    <div className={["App", ...className].join(" ")}>
+    <div className={["App", className].join(" ")}>
         <Head title={title} />
         <Navbar />
         <div className="layout">
