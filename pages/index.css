@@ -1,3 +1,7 @@
 .Main {
 	font-family: 'Century Gothic';
 }
+
+.homeInfo {
+	border-radius: 3vh;
+}
