@@ -1,0 +1,22 @@
+#about-jumbotron {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+    background: white;
+    background-image: url("/static/images/nss4.JPG");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-jumbotron-content {
+    width: fit-content;
+    padding: 32px;
+    border: white 2px solid;
+    background: rgba(0, 0, 0, 0.6);
+}
