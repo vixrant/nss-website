@@ -21,7 +21,7 @@ export default () => (
 						<br/><br/>			
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/nss1.jpg" />
+					        	<img className="Image" src="../static/images/unique/week1.jpeg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 1</strong></h4>
@@ -37,13 +37,13 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/nss2.jpg" />			      
+					        	<img className="Image" src="../static/images/unique/week2.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/nss3.jpg" />
+					        	<img className="Image" src="../static/images/unique/week3.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 3</strong></h4>
@@ -59,13 +59,13 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/nss4.jpg" />			      
+					        	<img className="Image" src="../static/images/unique/week4.jpeg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/nss5.jpg" />
+					        	<img className="Image" src="../static/images/unique/quiz_debate.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Quiz and Debate Competition</strong></h4>
@@ -81,10 +81,23 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/nss4.jpg" />			      
+					        	<img className="Image" src="../static/images/unique/sports_day.jpg" />			      
 					        </Col>
 					   	</Row>
-					   	<br/><br/>			   				   				   		
+					   	<br/><br/><br/>	
+						<h3 className="Heading">Project Utkarsh</h3>
+						<br/><br/>			
+					    <Row className="Row">
+					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
+					        	<img className="Image" src="../static/images/unique/wall_painting.jpg" />
+					        </Col>
+					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
+					        	<h4><strong>Utkarsh Session 1</strong></h4>
+					        	<p>Clean India Green India: As a part of Project Utkarsh, the volunteers of DJNSS chose to spread this slogan to every corner of the adopted slum. The wall of Nehru Nagar tea stall was painted with a beautiful artefact. An artefact that was artistic as well as held one simple meaning: To keep our environment clean. Depicting the repercussions of a dusty world and a clean world in one painting, DJNSS explained the necessity of cleanliness in our locality. The message and simplicity of the painting attracted a lot of the locals. They loved and appreciated our volunteers' hard work.The volunteers were happy to be able to paint their world and bring a bit of happiness to them.
+								</p>
+					        </Col>
+					   	</Row>
+					   	<br/><br/>					   			   				   				   		
 					</center>		   				   	
 				</Container>	
 			</div>													

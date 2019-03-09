@@ -22,7 +22,7 @@ const cardContent = [
 		text: 'The NSS Unit of D.J. Sanghvi College Of Engineering organised a seminar in collaboration with SVKM on 27th September 2018 by (speaker name). Speaker covered a wide range of procedures to prevent casualties in the time of extreme fires. Video clips of past and recent fire cases were presented for better understanding. He also shared some safety measures and important tips in case of fire flames and about the fire drill requirements and how it should be taken seriously. With the help of volunteers he demonstrated the process of operating fire extinguishers on the college terrace. There were over 45 teachers and 20 NSS volunteers who actively participated in the seminar.',
 	},
 	{
-		src: '../static/images/home/nss3.jpg' , 
+		src: '../static/images/events/orientation.jpeg' , 
 		title: 'NSS Orientation' ,
 		text: 'We are all Arjuna in our own journey of life. - Dr. Hari Vasudevan. With the Orientation, NSS was ready to embark on its new journey of helping and bringing about change, which would have not been possible without, the support of the Program Officers, Mr. Vyankatesh Bagal and Mr. Rahul Taware who guided the unit throughout their  journey in the past years and would continue to do so the coming years. A special thanks was given to Chief Guest, Mr. Pranav Panchal, who threw light upon the importance of NSS in every institution. The principal of the college gave the volunteers an insight on how NSS helps one become a successful person with fair principles and morals. The committee thanked the volunteers for their participation in the previously conducted events and promised them a great year ahead in NSS.',
 	},

@@ -44,11 +44,11 @@ const area2cardContent = [
 		title: 'Newspaper Collection Drive' ,
 		text: '“Don’t throw it away, Recycle for another day” And all our volunteers came forward to make it true. A Sunday morning which could’ve been spent by most, sleeping. A big bunch of newspapers and piles of scraps that probably would have just laid around somewhere, being of no use to anyone.  DJNSS volunteers, striving to work for the betterment of the society, put in maximum efforts in the Newspaper Collection Drive and collected these piles. The volunteers couldn’t be thanked enough for all of their efforts.' ,
 	},
-	{
+/*	{
 		src: '' , 
 		title: 'Water Conservation Awareness' ,
 		text: '',
-	},				
+	},*/				
 ];
 
 export default () => (

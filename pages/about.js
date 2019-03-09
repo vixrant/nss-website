@@ -2,20 +2,23 @@ import React from 'react';
 import BasicNavLayout from '../layouts/BasicNavLayout';
 import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, CardBody } from 'reactstrap';
 
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Container } from 'reactstrap';
 
 import "./about.css";
 import './common.css';
 
 const posInfo = [
 	{
-		name: "Bagal Sir",
+		name: "Prof. Bagal",
+		src: '../static/images/photos/bagal.jpeg',
 	},
 	{
-		name: "Tawde Sir",
+		name: "Prof. Rahul Tawre",
+		src: '../static/images/photos/tawre.jpeg',
 	},
 	{
-		name: "Alisha Sir",
+		name: "Alisha Banz Ma'am",
+		src: '../static/images/photos/bagal.jpeg',
 	},
 ];
 
@@ -55,7 +58,7 @@ const AboutNss = () => (
 
 const POCard = (props) => (
 	<Card key={props.key} className="Card">
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+        <CardImg top className="CardImg" width="100%" src={props.src} alt="Card image cap" />
         <CardBody>
           <CardTitle><b>{ props.name }</b></CardTitle>
           {/* <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
@@ -67,18 +70,24 @@ const POCard = (props) => (
 );
 
 export default () => (
-	<BasicNavLayout title="About" >
+	<BasicNavLayout title="About" className="Main">
 		<Jumbotron id="about-jumbotron">
 			<h2 className="display-4 about-jumbotron-content" >
 				About DJ NSS Unit
 			</h2>
 		</Jumbotron>
-		<SocialNss />
-		<AboutNss />
-		<center>
-			{
-				posInfo.map((content, i) => <POCard key={i} {...content} />)
-			}
-		</center>
+		<br/><br/>
+		<Container>
+			<SocialNss />
+			<br/><br/>
+			<AboutNss />
+			<br/><br/>
+			<center>
+			<h2>NSS Program Officers</h2>
+				{
+					posInfo.map((content, i) => <POCard key={i} {...content} />)
+				}
+			</center>
+		</Container>
 	</BasicNavLayout>
 );
