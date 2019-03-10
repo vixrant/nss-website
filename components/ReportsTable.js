@@ -4,7 +4,7 @@ import { Table, Button } from 'reactstrap';
 import "./ReportsTable.css";
 
 const ReportsTable = () => (
-    <Table hover id="ReportsTable">
+    <Table id="ReportsTable">
         <thead>
             <tr>
                 <h3>
@@ -15,12 +15,12 @@ const ReportsTable = () => (
         <tbody>
             <tr>
                 <td>
-                    2018 - 2019
+                    <a href="#" onClick={() => alert("Give report")}>2018 - 2019</a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    2017 - 2018
+                    <a href="#" onClick={() => alert("Give report")}>2017 - 2018</a>
                 </td>
             </tr>
         </tbody>

@@ -2,3 +2,12 @@
     vertical-align: middle;
     text-align: end;
 }
+
+#ReportsTable td a {
+    color: black;
+}
+
+#ReportsTable td a:hover {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
