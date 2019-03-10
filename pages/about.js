@@ -57,7 +57,7 @@ const AboutNss = () => (
 );
 
 const POCard = (props) => (
-	<Card key={props.key} className="Card">
+	<Card key={props.key} className="Card Committee">
         <CardImg top className="CardImg" width="100%" src={props.src} alt="Card image cap" />
         <CardBody>
           <CardTitle><b>{ props.name }</b></CardTitle>
