@@ -24,7 +24,7 @@ const posInfo = [
 
 const SocialNss = () => (
 	<div id="social-bar">
-		<span className="social-heading"> Social </span>
+		{/* <span className="social-heading"> Social </span> */}
 		<div className="social-icons">
 			<a href="https://www.facebook.com/djsce.nss">
 				<i className="fab fa-facebook"/>
@@ -76,17 +76,12 @@ export default () => (
 				About DJ NSS Unit
 			</h2>
 		</Jumbotron>
-		<br/><br/>
 		<Container>
 			<SocialNss />
-			<br/><br/>
 			<AboutNss />
-			<br/><br/>
 			<center>
-			<h2>NSS Program Officers</h2>
-				{
-					posInfo.map((content, i) => <POCard key={i} {...content} />)
-				}
+				<h2>NSS Program Officers</h2>
+				{ posInfo.map((content, i) => <POCard key={i} {...content} />) }
 			</center>
 		</Container>
 	</BasicNavLayout>
