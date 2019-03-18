@@ -5,13 +5,13 @@ import Carousel from '../components/Carousel';
 import ReportsTable from '../components/ReportsTable';
 
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import './index.css';
+import '../static/css/index.css';
 
 export default () => (
 	<BasicNavLayout title="Home" className="Main">
 	    <Carousel />
 	        <Container>
-	        	<br/>
+	        	<br/><br/><br/>
 				<Row>
 					<Col>
 						<Jumbotron className="homeInfo">
@@ -32,7 +32,7 @@ export default () => (
 						<ReportsTable />
 					</Col>
 				</Row>
-
+				<br/>
 	        	<Row>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
 	        			<img className="img-fluid" src="../static/images/principal.jpg" />
@@ -41,6 +41,7 @@ export default () => (
 	        			<h4><strong>From the Principal's Desk</strong></h4>
 	        		</Col>
 	        	</Row>
+	        	<br/>	        
 	        </Container>     
 	</BasicNavLayout>
 )

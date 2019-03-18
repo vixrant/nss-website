@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button, CardImg, Cardname, CardTitle, CardText, CardDeck, CardSubname, CardBody } from 'reactstrap';
 import { Container } from 'reactstrap';
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import './common.css';
+import '../static/css/common.css';
 
 const infoTeam = [
 	{
@@ -108,16 +108,16 @@ const infoTeam = [
 ];
 
 export default () => (
-    <BasicNavLayout title="Upcoming Events" className="Main">
+    <BasicNavLayout title="Committee" className="Main">
 			    <br/><br/>
 			    <div className="container">
 			    	<h3 className="Heading">NSS Committee</h3>
 			    </div>
 			    <br/><br/>			    
-			    <center className="wow fadeInUp">
+			    <center>
 		    		{
 		    			infoTeam.map((content,i) => (
-				      		<Card className="Card Committee my-4" key={i}>
+				      		<Card className="Card Committee wow fadeInUp my-4" key={i}>
 						        <CardImg className="CardImg" top src={content.src} alt="Card image" />
 						        <CardBody>
 							        <CardTitle className="CardTitle">{content.name}</CardTitle>

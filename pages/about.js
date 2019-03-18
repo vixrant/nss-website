@@ -4,12 +4,12 @@ import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, 
 
 import { Jumbotron, Container } from 'reactstrap';
 
-import "./about.css";
-import './common.css';
+import "../static/css/about.css";
+import '../static/css/common.css';
 
 const posInfo = [
 	{
-		name: "Prof. Bagal",
+		name: "Prof. Vyankatesh Bagal",
 		src: '../static/images/photos/bagal.jpeg',
 	},
 	{
@@ -18,7 +18,7 @@ const posInfo = [
 	},
 	{
 		name: "Alisha Banz Ma'am",
-		src: '../static/images/photos/bagal.jpeg',
+		src: '../static/images/photos/alisha.jpeg',
 	},
 ];
 
@@ -40,27 +40,33 @@ const SocialNss = () => (
 );
 
 const AboutNss = () => (
-	<div id="info-nss">
-		<h1 className="display-5">Dummy content</h1>
-		The National Service Scheme (NSS) has been enthusiastically conducting activities to help people from the past 49 years. 
-		It was launched on Gandhiji's centenary year to continue his ideas of community service among the youth of our nation. 
-		NSS is a student association of the youth studying in university.
-
-		One such student organisations is DJNSS, the NSS unit of Dwarkadas J. Sanghvi college of Engineering, Vile Parle (E). 
-		With a unique motto " Help, Connect, Inspire ", 
-		the organisation has been helping people enthusiastically for the past 8 years and have a vision to continue ahead.
-
-		DJNSS, has been conducting many city as well as district-level social service activities. 
-		As a part of a government unit, they are permitted to adopt a village for a period of 5 years to facilitate positive impacts among rural & tribal communities. 
-		DJNSS thus has adopted Ambewadi and Narpad, Dahanu.
+	<div className="lead" id="info-nss">
+			<h2 className="display-5 wow slideInLeft">Our Vision</h2>
+			<hr className="my-2" />
+			<p className="lead wow slideInRight">
+			<strong>The Vision of DJ NSS is inculcating the sense of realization followed by creating the perfect platform to bridge the gap, opening up to various sectors and having a technical touch.</strong>
+			<br/><br/>
+				<strong>AS A PART OF NSS UNIT WE VISUALIZE TO FIRST OF ALL GET THE SENSE OF REALIZATION</strong>
+				<br/>
+				Realization of helping the society is the first and the foremost thing that is required to be inculcated in each and every person in the unit. The greater they feel attached the better will they give towards changing things for the betterment of the society.
+				<br/><br/>
+				<strong>CREATING THE PERFECT PLATFORM TO BRIDGE THE GAP CREATING ANY KIND OF DIFFERENCE.</strong><br/>
+				Realization and feeling attached is just the first step, the main part comes here when we build the perfect platform to bridge the gap between them and the outer world.
+				<br/><br/>
+				<strong>TECHNICAL TOUCH</strong><br/>
+				Being an engineering college having a technical touch to our activities is the need of the hour. So, having a technical team which works on linking the tech world to social world is one of the major things that we visualize and have achieved with DJNSS.
+				<br/><br/>
+				<strong>VARIOUS SECTORS OF THE SOCIETY</strong><br/>
+				We as a unit also plan to open up to various sectors of the society not just focusing on sectors which everyone helps but on the sectors which are neglected too.			
+			</p>
 	</div>
 );
 
 const POCard = (props) => (
-	<Card key={props.key} className="Card Committee">
+	<Card key={props.key} className="Card Committee wow fadeInUp">
         <CardImg top className="CardImg" width="100%" src={props.src} alt="Card image cap" />
         <CardBody>
-          <CardTitle><b>{ props.name }</b></CardTitle>
+          <CardTitle className="lead"><b>{ props.name }</b></CardTitle>
           {/* <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
           <CardText>
             <small className="text-muted">Last updated 3 mins ago</small>
@@ -76,9 +82,12 @@ export default () => (
 				About DJ NSS Unit
 			</h2>
 		</Jumbotron>
+		<br/>
 		<Container>
 			<SocialNss />
+			<br/>
 			<AboutNss />
+			<br/>
 			<center>
 				<h2>NSS Program Officers</h2>
 				{ posInfo.map((content, i) => <POCard key={i} {...content} />) }

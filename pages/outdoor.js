@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
 
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import './common.css';
+import '../static/css/common.css';
 
 const area1cardContent = [
 	{
@@ -58,10 +58,10 @@ export default () => (
 			<h3 className="Heading">Area 1: Andheri/Vile Parle</h3>
 		</div>
 		<br/><br/>			    
-		<center className="wow fadeInUp">
+		<center>
 			{
 				area1cardContent.map((content,i) => (
-					<Card className="Card" key={i}>
+					<Card className="Card wow fadeInUp" key={i}>
 						<CardImg className="CardImg" top src={content.src} alt="Card image" />
 						<CardBody>
 							<CardTitle className="CardTitle">{content.title}</CardTitle>
@@ -76,10 +76,10 @@ export default () => (
 			<h3 className="Heading">Area 2: Goregaon</h3>
 		</div>
 		<br/><br/>			    
-		<center className="wow fadeInUp">
+		<center>
 			{
 				area2cardContent.map((content,i) => (
-					<Card className="Card" key={i}>
+					<Card className="Card wow fadeInUp" key={i}>
 						<CardImg className="CardImg" top src={content.src} alt="Card image" />
 						<CardBody>
 							<CardTitle className="CardTitle">{content.title}</CardTitle>
