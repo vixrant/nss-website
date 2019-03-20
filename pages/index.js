@@ -35,7 +35,7 @@ export default () => (
 				<br/>
 	        	<Row>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
-	        			<img className="img-fluid" src="../static/images/principal.jpg" />
+	        			<img className="img-fluid" src="../static/images/photos/principal.jpg" />
 	        		</Col>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
 	        			<h4><strong>From the Principal's Desk</strong></h4>
