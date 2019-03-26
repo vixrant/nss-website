@@ -6,7 +6,7 @@ import '../static/css/common.css';
 
 const infoTeam = [
 	{
-		src: '../static/images/photos/rohin.jpg',
+		src: '../static/images/photos/rohin.jpeg',
 		name: 'Rohin Matthew',
 		position: 'Chairperson',
 	},
@@ -41,7 +41,7 @@ const infoTeam = [
 		position: 'Vice Chairperson',
 	},
 	{
-		src: '../static/images/photos/boy.jfif',
+		src: '../static/images/photos/aayush.jpg',
 		name: 'Aayush Kharwal',
 		position: 'Vice Chairperson',
 	},
@@ -51,7 +51,7 @@ const infoTeam = [
 		position: 'Treasurer',
 	},
 	{
-		src: '../static/images/photos/devansh.png',
+		src: '../static/images/photos/devansh.jpg',
 		name: 'Devansh Dalal',
 		position: 'Joint Treasurer',
 	},
@@ -76,7 +76,7 @@ const infoTeam = [
 		position: 'Creatives Head',
 	},
 	{
-		src: '../static/images/photos/girl.png',
+		src: '../static/images/photos/priyal.jpg',
 		name: 'Priyal Dani',
 		position: 'Publiciy Head',
 	},
@@ -86,17 +86,17 @@ const infoTeam = [
 		position: 'Publiciy Head',
 	},
 	{
-		src: '../static/images/photos/girl.png',
+		src: '../static/images/photos/shreya.jpg',
 		name: 'Shreya Nair',
 		position: 'Editorial Head',
 	},
 	{
-		src: '../static/images/photos/manali.jpg',
+		src: '../static/images/photos/manali.jpeg',
 		name: 'Manali Salvi',
 		position: 'Editorial Head',
 	},
 	{
-		src: '../static/images/photos/girl.png',
+		src: '../static/images/photos/maitri.jpg',
 		name: 'Maitri Gohil',
 		position: 'Tech Head',
 	},

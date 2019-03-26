@@ -38,7 +38,24 @@ export default () => (
 	        			<img className="img-fluid" src="../static/images/photos/principal.jpg" />
 	        		</Col>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
-	        			<h4><strong>From the Principal's Desk</strong></h4>
+	        			<h4 className="display-5"><strong>From the Principal's Desk</strong></h4>
+						<p className="lead">
+							<br/>
+							Dear All,<br/>
+							Greetings!<br/>
+							The National Service Scheme of India (NSS) established in the year 1969, is a Central Sector Scheme of the Ministry of Youth Affairs & Sports, Government of India, which provides the students with an opportunity to participate in various government led community service activities & programmes. The motto of NSS, ‘Not Me, But You’ is what encourages the students to participate in various social activities beyond their academics and which helps them become better as an individual.<br/>
+						</p>
+					</Col>
+					<Col> 
+						<p className="lead">
+							DJNSS, the NSS unit of Dwarkadas J Sanghvi College of Engineering commenced on their journey towards better individuality, and therefore a better nation in the year 2010. The unit works for the all-round development of the society, wherein they try to solve various issues ranging from socio-economic problems to the crisis caused by global warming that ails Mother Nature.<br/><br/>
+							We, at D.J Sanghvi College of Engineering believe that, for every individual to be strong enough to face the challenges of today’s world, they have to see for themselves the problems and predicaments faced by the society and work towards its betterment, one step at a time. At DJNSS, we nurture and encourage this thought process, which will help the students become resilient and unfaltering in the face of life, ultimately transforming them from the “Arjuna Syndrome” to being successful individuals in their journey towards becoming a strong unit for the progress and development of the nation.<br/><br/>
+							Social growth aside, DJNSS also encourages the students to bring about various technical advancements wherever necessary and possible. We encourage the unit to mesh technology with daily life of the needy, thereby inculcating in them, a sense of oneness with the society as a whole.<br/><br/>
+							In all our efforts, we seek the Lord's Grace to keep us on the path of virtue, courage and wisdom. May thy grace and blessings flow through us to the world around us in all our efforts to make better people, in addition to being quality engineers, who can make a positive impact in our society and help build our nation in these ever changing and challenging times.<br/><br/>  
+							Warm Regards & Good Wishes!<br/><br/>
+							Dr. Hari Vasudevan<br/>
+							Principal<br/>
+						</p>
 	        		</Col>
 	        	</Row>
 	        	<br/>	        
