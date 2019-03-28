@@ -2,4 +2,5 @@ const withCSS = require('@zeit/next-css')
 
 module.exports = withCSS({
     cssModules: 0,
+    assetPrefix: "/nss/",
 })
