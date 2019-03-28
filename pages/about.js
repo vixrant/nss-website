@@ -17,7 +17,7 @@ const posInfo = [
 		src: '../static/images/photos/tawre.jpeg',
 	},
 	{
-		name: "Alisha Banz Ma'am",
+		name: "Prof. Alisha Banz",
 		src: '../static/images/photos/alisha.jpeg',
 	},
 ];

@@ -52,9 +52,9 @@ export default () => (
 							We, at D.J Sanghvi College of Engineering believe that, for every individual to be strong enough to face the challenges of today’s world, they have to see for themselves the problems and predicaments faced by the society and work towards its betterment, one step at a time. At DJNSS, we nurture and encourage this thought process, which will help the students become resilient and unfaltering in the face of life, ultimately transforming them from the “Arjuna Syndrome” to being successful individuals in their journey towards becoming a strong unit for the progress and development of the nation.<br/><br/>
 							Social growth aside, DJNSS also encourages the students to bring about various technical advancements wherever necessary and possible. We encourage the unit to mesh technology with daily life of the needy, thereby inculcating in them, a sense of oneness with the society as a whole.<br/><br/>
 							In all our efforts, we seek the Lord's Grace to keep us on the path of virtue, courage and wisdom. May thy grace and blessings flow through us to the world around us in all our efforts to make better people, in addition to being quality engineers, who can make a positive impact in our society and help build our nation in these ever changing and challenging times.<br/><br/>  
-							Warm Regards & Good Wishes!<br/><br/>
-							Dr. Hari Vasudevan<br/>
-							Principal<br/>
+							Warm regards & good wishes!<br/><br/>
+							<b style={{fontWeight: 'bold'}}>Dr. Hari Vasudevan</b><br/>
+							<i>Principal</i><br/>
 						</p>
 	        		</Col>
 	        	</Row>
