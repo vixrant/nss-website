@@ -21,7 +21,7 @@ export default () => (
 						<br/><br/>			
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/unique/week1.jpeg" />
+					        	<img className="Image" src="/static/images/unique/week1.jpeg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 1</strong></h4>
@@ -37,13 +37,13 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/unique/week2.jpg" />			      
+					        	<img className="Image" src="/static/images/unique/week2.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/unique/week3.jpg" />
+					        	<img className="Image" src="/static/images/unique/week3.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Week 3</strong></h4>
@@ -59,13 +59,13 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/unique/week4.jpeg" />			      
+					        	<img className="Image" src="/static/images/unique/week4.jpeg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/>
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/unique/quiz_debate.jpg" />
+					        	<img className="Image" src="/static/images/unique/quiz_debate.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Parichay Quiz and Debate Competition</strong></h4>
@@ -81,7 +81,7 @@ export default () => (
 					        	</p>
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
-					        	<img className="Image" src="../static/images/unique/sports_day.jpg" />			      
+					        	<img className="Image" src="/static/images/unique/sports_day.jpg" />			      
 					        </Col>
 					   	</Row>
 					   	<br/><br/><br/>	
@@ -89,7 +89,7 @@ export default () => (
 						<br/><br/>			
 					    <Row className="Row">
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInLeft">
-					        	<img className="Image" src="../static/images/unique/wall_painting.jpg" />
+					        	<img className="Image" src="/static/images/unique/wall_painting.jpg" />
 					        </Col>
 					        <Col xs="12" sm="12" md="6" lg="6" className="my-auto wow slideInRight">
 					        	<h4><strong>Utkarsh Session 1</strong></h4>

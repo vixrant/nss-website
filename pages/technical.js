@@ -6,7 +6,7 @@ import BasicNavLayout from '../layouts/BasicNavLayout';
 
 const cardContent = [
 	{
-		src: '../static/images/technical/pulley.jpg' ,
+		src: '/static/images/technical/pulley.jpg' ,
 		title: 'Pulley Installation' ,
 		text: 'Pulley systems were installed on two most frequented village wells, one of which required laying of the foundation which was notably designed by the volunteers themselves. The pulley systems facilitated in lowering the villagers’ efforts by a great deal.' ,
 	}	

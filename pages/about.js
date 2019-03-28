@@ -10,15 +10,15 @@ import "../static/css/about.css";
 const posInfo = [
 	{
 		name: "Prof. Vyankatesh Bagal",
-		src: '../static/images/photos/bagal.jpeg',
+		src: '/static/images/photos/bagal.jpeg',
 	},
 	{
 		name: "Prof. Rahul Tawre",
-		src: '../static/images/photos/tawre.jpeg',
+		src: '/static/images/photos/tawre.jpeg',
 	},
 	{
 		name: "Prof. Alisha Banz",
-		src: '../static/images/photos/alisha.jpeg',
+		src: '/static/images/photos/alisha.jpeg',
 	},
 ];
 
