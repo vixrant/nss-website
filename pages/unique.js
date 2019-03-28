@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
 
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import '../static/css/common.css';
+
 
 const first = [
 	

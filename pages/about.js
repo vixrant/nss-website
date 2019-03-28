@@ -5,7 +5,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, 
 import { Jumbotron, Container } from 'reactstrap';
 
 import "../static/css/about.css";
-import '../static/css/common.css';
+
 
 const posInfo = [
 	{

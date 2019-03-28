@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button, CardImg, Cardname, CardTitle, CardText, CardDeck, CardSubname, CardBody } from 'reactstrap';
 import { Container } from 'reactstrap';
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import '../static/css/common.css';
+
 
 const infoTeam = [
 	{

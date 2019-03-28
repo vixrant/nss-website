@@ -4,7 +4,7 @@ import BasicNavLayout from '../layouts/BasicNavLayout';
 import { Jumbotron } from 'reactstrap';
 import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, CardBody } from 'reactstrap';
 
-import '../static/css/common.css';
+
 
 const cardContent = [
 	{
