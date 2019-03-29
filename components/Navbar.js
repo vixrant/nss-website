@@ -60,14 +60,16 @@ export default class CustomNavbar extends React.Component {
 
     render = () => (
         <Navbar sticky={'top'} color='white' light className="Navbar" expand='md'>
-            <NavbarBrand href='/'>
+            <NavbarBrand href={withBaseDir`/`}>
                 <img src={withBaseDir`/static/images/logo1.png`} className="logo" />
             </NavbarBrand>
 
             <Collapse isOpen={this.state.iscollapsed} navbar>
                 <Nav className="ml-auto mr-auto" navbar>
                     <NavItem className="NavLink">
-                        <NavLink className="mx-3" href="/">Home</NavLink>
+                        <NavLink className="mx-3" href={withBaseDir`/`}>
+                            Home
+                        </NavLink>
                     </NavItem>                
                     <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>
