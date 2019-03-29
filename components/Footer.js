@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {} from 'reactstrap';
+import { withBaseDir } from '../util/helpers';
 
 import "./Footer.css";
 
@@ -57,7 +57,7 @@ import "./Footer.css";
 const Footer = () => (
 	<div className="Bottom">
 		<footer className="Footer">
-			<img src='/static/images/FRONT.png' className="Tree" />
+			<img src={withBaseDir`/static/images/FRONT.png`} className="Tree" />
 		</footer>
 		<div className="Copyright"> © DJSCE NSS Unit, 2019 </div>
 	</div>

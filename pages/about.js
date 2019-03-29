@@ -1,8 +1,8 @@
 import React from 'react';
 import BasicNavLayout from '../layouts/BasicNavLayout';
-import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, CardBody } from 'reactstrap';
+import { Card, Button, CardImg, CardTitle, CardText, CardColumns, CardSubtitle, CardBody, Jumbotron, Container } from 'reactstrap';
 
-import { Jumbotron, Container } from 'reactstrap';
+import { withBaseDir } from '../util/helpers';
 
 import "../static/css/about.css";
 
@@ -10,15 +10,15 @@ import "../static/css/about.css";
 const posInfo = [
 	{
 		name: "Prof. Vyankatesh Bagal",
-		src: '/static/images/photos/bagal.jpeg',
+		src: withBaseDir`/static/images/photos/bagal.jpeg`,
 	},
 	{
 		name: "Prof. Rahul Tawre",
-		src: '/static/images/photos/tawre.jpeg',
+		src: withBaseDir`/static/images/photos/tawre.jpeg`,
 	},
 	{
 		name: "Prof. Alisha Banz",
-		src: '/static/images/photos/alisha.jpeg',
+		src: withBaseDir`/static/images/photos/alisha.jpeg`,
 	},
 ];
 
@@ -75,9 +75,13 @@ const POCard = (props) => (
     </Card>
 );
 
+const imageUrl = withBaseDir`/static/images/nss4.JPG`;
+
 export default () => (
 	<BasicNavLayout title="About" className="Main">
-		<Jumbotron id="about-jumbotron">
+		<Jumbotron id="about-jumbotron" style={{
+			backgroundImage: `url(${imageUrl})`
+		}}>
 			<h2 className="display-4 about-jumbotron-content" >
 				About DJ NSS Unit
 			</h2>

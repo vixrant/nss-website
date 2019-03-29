@@ -14,6 +14,8 @@ import {
 } from 'reactstrap/';
 import './Navbar.css';
 
+import { withBaseDir } from '../util/helpers';
+
 const linksArray = [
 /*    {
         text: 'Home',
@@ -59,7 +61,7 @@ export default class CustomNavbar extends React.Component {
     render = () => (
         <Navbar sticky={'top'} color='white' light className="Navbar" expand='md'>
             <NavbarBrand href='/'>
-                <img src='/static/images/logo1.png' className="logo" />
+                <img src={withBaseDir`/static/images/logo1.png`} className="logo" />
             </NavbarBrand>
 
             <Collapse isOpen={this.state.iscollapsed} navbar>
@@ -121,7 +123,7 @@ export default class CustomNavbar extends React.Component {
             </Collapse>
 
             <NavbarBrand href='/'>
-                <img src='/static/images/logo4.png' className="logo" />
+                <img src={withBaseDir`/static/images/logo4.png`} className="logo" />
             </NavbarBrand>
 
             <NavbarToggler onClick={this.toggle} />
