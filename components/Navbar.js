@@ -75,17 +75,17 @@ export default class CustomNavbar extends React.Component {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem className="NavLink">
-                                <NavLink href="/outdoor">
+                                <NavLink href={withBaseDir`/outdoor`}>
                                     Outdoor
                                 </NavLink>
                             </DropdownItem>
                             <DropdownItem className="NavLink">
-                                <NavLink href="/college">
+                                <NavLink href={withBaseDir`/college`}>
                                     College
                                 </NavLink>
                             </DropdownItem>
                             <DropdownItem className="NavLink">
-                                <NavLink href="/university">
+                                <NavLink href={withBaseDir`/university`}>
                                     University
                                 </NavLink>
                             </DropdownItem>
@@ -97,12 +97,12 @@ export default class CustomNavbar extends React.Component {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem className="NavLink">
-                                <NavLink href="/technical">
+                                <NavLink href={withBaseDir`/technical`}>
                                     Technical
                                 </NavLink>
                             </DropdownItem>
                             <DropdownItem className="NavLink">
-                                <NavLink href="/unique">
+                                <NavLink href={withBaseDir`/unique`}>
                                     Unique
                                 </NavLink>
                             </DropdownItem>
@@ -113,7 +113,7 @@ export default class CustomNavbar extends React.Component {
                             <NavItem className="NavLink" key={i}>
                                 <NavLink 
                                     className={["mx-3", e.href == this.currentRoute ? 'active' : ''].join(' ')} 
-                                    href={e.href}>
+                                    href={withBaseDir(e.href)}>
                                     {e.text}
                                 </NavLink>
                             </NavItem>

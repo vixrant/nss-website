@@ -3,8 +3,8 @@ const { parsed } = require('dotenv').config();
 
 module.exports = withCSS({
     cssModules: 0,
-    assetPrefix: parsed.NODE_ENV !== 'dev' ? "/nss/" : "",
+    assetPrefix: "/nss/",
     env: {
-        BASE_DIR: parsed.BASE_DIR || '',
+        BASE_DIR: "/nss",
     }
 })
