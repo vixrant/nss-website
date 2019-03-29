@@ -13,7 +13,7 @@ const area1cardContent = [
 	},
 	{
 		src: '/static/images/events/kerela.jpg' , 
-		title: 'Care for Kerela' ,
+		title: 'Care for Kerala' ,
 		text: 'In one of the worst floods that hit Kerala this year, the massive loss of lives, property and infrastructure was unimaginable. With over ten lakh people living in temporary shelters and a lot more evacuated from their homes, the people of Kerala were relentlessly battling the helplessness of their situation when the odds were against God’s own country. In a bid to give them at least an inkling of relief, the NSS unit of D J Sanghvi College organized a drive which was held from 22 to 25 August 2018, in order to collect the basic and necessary items of livelihood. We would like to inform all the people who donated, that the packages have reached Alleppey district, Kerala successfully.',
 	},
 	{
