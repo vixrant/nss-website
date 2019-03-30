@@ -1,107 +1,107 @@
 import React from 'react';
 import { Card, Button, CardImg, Cardname, CardTitle, CardText, CardDeck, CardSubname, CardBody } from 'reactstrap';
-import { Container } from 'reactstrap';
 import BasicNavLayout from '../layouts/BasicNavLayout';
 
+import { withBaseDir } from '../util/helpers';
 
 const infoTeam = [
 	{
-		src: '/static/images/photos/rohin.jpeg',
+		src: withBaseDir`/static/images/photos/rohin.jpeg`,
 		name: 'Rohin Matthew',
 		position: 'Chairperson',
 	},
 	{
-		src: '/static/images/photos/meet.jpg',
+		src: withBaseDir`/static/images/photos/meet.jpg`,
 		name: 'Meet Damani',
 		position: 'Co-Chairperson',
 	},
 	{
-		src: '/static/images/photos/harshit.jpg',
+		src: withBaseDir`/static/images/photos/harshit.jpg`,
 		name: 'Harshit Samani',
 		position: 'Co-Chairperson',
 	},
 	{
-		src: '/static/images/photos/siddhi.jpg',
+		src: withBaseDir`/static/images/photos/siddhi.jpg`,
 		name: 'Siddhi Solanki',
 		position: 'Secretary',
 	},
 	{
-		src: '/static/images/photos/yogesh.jpeg',
+		src: withBaseDir`/static/images/photos/yogesh.jpeg`,
 		name: 'Yogesh Deshpande',
 		position: 'Joint Secretary',
 	},
 	{
-		src: '/static/images/photos/arham.jpg',
+		src: withBaseDir`/static/images/photos/arham.jpg`,
 		name: 'Arham Mehta',
 		position: 'Vice Chairperson',
 	},
 	{
-		src: '/static/images/photos/trushita.jpg',
+		src: withBaseDir`/static/images/photos/trushita.jpg`,
 		name: 'Trushita Bharucha',
 		position: 'Vice Chairperson',
 	},
 	{
-		src: '/static/images/photos/aayush.jpg',
+		src: withBaseDir`/static/images/photos/aayush.jpg`,
 		name: 'Aayush Kharwal',
 		position: 'Vice Chairperson',
 	},
 	{
-		src: '/static/images/photos/shravani.jpg',
+		src: withBaseDir`/static/images/photos/shravani.jpg`,
 		name: 'Shravani Salunke',
 		position: 'Treasurer',
 	},
 	{
-		src: '/static/images/photos/devansh.jpg',
+		src: withBaseDir`/static/images/photos/devansh.jpg`,
 		name: 'Devansh Dalal',
 		position: 'Joint Treasurer',
 	},
 	{
-		src: '/static/images/photos/rohan.jpg',
+		src: withBaseDir`/static/images/photos/rohan.jpg`,
 		name: 'Rohan Poojari',
 		position: 'Events Head',
 	},
 	{
-		src: '/static/images/photos/utsavi.jpg',
+		src: withBaseDir`/static/images/photos/utsavi.jpg`,
 		name: 'Utsavi Sevak',
 		position: 'Events Head',
 	},
 	{
-		src: '/static/images/photos/dhruti.jpg',
+		src: withBaseDir`/static/images/photos/dhruti.jpg`,
 		name: 'Dhruti Kuvar',
 		position: 'Creatives Head',
 	},
 	{
-		src: '/static/images/photos/pratiksha.jpg',
+		src: withBaseDir`/static/images/photos/pratiksha.jpg`,
 		name: 'Pratiksha Chotalia',
 		position: 'Creatives Head',
 	},
 	{
-		src: '/static/images/photos/priyal.jpg',
+		src: withBaseDir`/static/images/photos/priyal.jpg`,
 		name: 'Priyal Dani',
 		position: 'Publiciy Head',
 	},
 	{
-		src: '/static/images/photos/neha.jpg',
+		src: withBaseDir`/static/images/photos/neha.jpg`,
 		name: 'Neha Shah',
 		position: 'Publiciy Head',
 	},
 	{
-		src: '/static/images/photos/shreya.jpg',
+		src: withBaseDir`/static/images/photos/shreya.jpg`,
 		name: 'Shreya Nair',
 		position: 'Editorial Head',
 	},
 	{
-		src: '/static/images/photos/manali.jpeg',
+		src: withBaseDir`/static/images/photos/manali.jpeg`,
 		name: 'Manali Salvi',
 		position: 'Editorial Head',
 	},
 	{
-		src: '/static/images/photos/maitri.jpg',
+		src: withBaseDir`/static/images/photos/maitri.jpg`,
 		name: 'Maitri Gohil',
 		position: 'Tech Head',
 	},
 	{
-		src: '/static/images/photos/sanya.jpg',
+		src: withBaseDir`/static/images/photos/sanya.jpg`,
 		name: 'Sanya Khare',
 		position: 'Tech Head',
 	},																																	
