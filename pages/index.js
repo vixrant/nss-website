@@ -1,10 +1,11 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
-
 import Carousel from '../components/Carousel';
 import ReportsTable from '../components/ReportsTable';
-
 import BasicNavLayout from '../layouts/BasicNavLayout';
+
+import { withBaseDir } from '../util/helpers';
+
 import '../static/css/index.css';
 
 export default () => (
@@ -35,7 +36,7 @@ export default () => (
 				<br/>
 	        	<Row>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
-	        			<img className="img-fluid" src="/static/images/photos/principal.jpg" />
+	        			<img className="img-fluid" src={withBaseDir`/static/images/photos/principal.jpg`} />
 	        		</Col>
 	        		<Col xs="12" sm="12" md="6" lg="6" className="my-3">
 	        			<h4 className="display-5"><strong>From the Principal's Desk</strong></h4>
