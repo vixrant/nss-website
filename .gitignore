@@ -1,3 +1,5 @@
 .next/
+out/
+nss/
 
 node_modules/
