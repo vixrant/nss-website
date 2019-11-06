@@ -17,25 +17,9 @@ import './Navbar.css';
 import { withBaseDir } from '../util/helpers';
 
 const linksArray = [
-/*    {
-        text: 'Home',
-        href: '/',
-    },
-    {
-        text: 'Events',
-        href: '/events',
-    },
-    {
-        text: 'Technical',
-        href: '/tech',
-    },*/
     {
         text: 'Camp',
         href: '/camp',
-    },
-    {
-        text: 'Committee',
-        href: '/committee',
     },
     {
         text: 'About Us',
@@ -70,7 +54,8 @@ export default class CustomNavbar extends React.Component {
                         <NavLink className="mx-3" href={withBaseDir`/`}>
                             Home
                         </NavLink>
-                    </NavItem>                
+                    </NavItem>    
+
                     <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>
                             Events
@@ -93,6 +78,7 @@ export default class CustomNavbar extends React.Component {
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>   
+
                     <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>
                             Projects
@@ -109,18 +95,41 @@ export default class CustomNavbar extends React.Component {
                                 </NavLink>
                             </DropdownItem>
                         </DropdownMenu>
-                    </UncontrolledDropdown>                                 
-                    {
-                        linksArray.map((e,i) => (
-                            <NavItem className="NavLink" key={i}>
-                                <NavLink 
-                                    className={["mx-3", e.href == this.currentRoute ? 'active' : ''].join(' ')} 
-                                    href={withBaseDir(e.href)}>
-                                    {e.text}
+                    </UncontrolledDropdown>
+
+                    <NavItem className="NavLink">
+                        <NavLink 
+                            className="mx-3"
+                            href={withBaseDir('/camp')}>
+                            Camp
+                        </NavLink>
+                    </NavItem>
+
+                    <UncontrolledDropdown className="NavLink" nav inNavbar>
+                        <DropdownToggle className="mx-3" nav caret>
+                            Committee
+                        </DropdownToggle>
+                        <DropdownMenu right>
+                            <DropdownItem className="NavLink">
+                                <NavLink href={withBaseDir`/committee`}>
+                                    2019-20
                                 </NavLink>
-                            </NavItem>
-                        ))
-                    }
+                            </DropdownItem>
+                            <DropdownItem className="NavLink">
+                                <NavLink href={withBaseDir`/committee1819`}>
+                                    2018-19
+                                </NavLink>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledDropdown> 
+
+                    <NavItem className="NavLink">
+                        <NavLink 
+                            className="mx-3" 
+                            href={withBaseDir`/about`}>
+                            About Us`
+                        </NavLink>
+                    </NavItem>
                 </Nav>
             </Collapse>
 

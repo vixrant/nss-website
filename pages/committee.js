@@ -6,112 +6,117 @@ import { withBaseDir } from '../util/helpers';
 
 const infoTeam = [
 	{
-		src: withBaseDir`/static/images/photos/rohin.jpeg`,
-		name: 'Rohin Matthew',
+		src: withBaseDir`/static/images/photos/committee1920/Nilay.jpg`,
+		name: 'Nilay Shah',
 		position: 'Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/meet.jpg`,
-		name: 'Meet Damani',
+		src: withBaseDir`/static/images/photos/committee1920/Nidhi.jpg`,
+		name: 'Nidhi Joshi',
 		position: 'Co-Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/harshit.jpg`,
-		name: 'Harshit Samani',
+		src: withBaseDir`/static/images/photos/committee1920/Ritvi.jpg`,
+		name: 'Ritvi Shetty',
 		position: 'Co-Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/siddhi.jpg`,
-		name: 'Siddhi Solanki',
+		src: withBaseDir`/static/images/photos/committee1920/Maitri.jpg`,
+		name: 'Maitri Shah',
 		position: 'Secretary',
 	},
 	{
-		src: withBaseDir`/static/images/photos/yogesh.jpeg`,
-		name: 'Yogesh Deshpande',
+		src: withBaseDir`/static/images/photos/committee1920/Vishwa.jpg`,
+		name: 'Vishwa Mehta',
 		position: 'Joint Secretary',
 	},
 	{
-		src: withBaseDir`/static/images/photos/arham.jpg`,
-		name: 'Arham Mehta',
+		src: withBaseDir`/static/images/photos/committee1920/Tanaya.jpg`,
+		name: 'Tanaya Parab',
 		position: 'Vice Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/trushita.jpg`,
-		name: 'Trushita Bharucha',
+		src: withBaseDir`/static/images/photos/committee1920/Rajas.jpg`,
+		name: 'Rajas Joshi',
 		position: 'Vice Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/aayush.jpg`,
-		name: 'Aayush Kharwal',
-		position: 'Vice Chairperson',
-	},
-	{
-		src: withBaseDir`/static/images/photos/shravani.jpg`,
-		name: 'Shravani Salunke',
+		src: withBaseDir`/static/images/photos/committee1920/Anushka.jpg`,
+		name: 'Anushka Tol',
 		position: 'Treasurer',
 	},
 	{
-		src: withBaseDir`/static/images/photos/devansh.jpg`,
-		name: 'Devansh Dalal',
+		src: withBaseDir`/static/images/photos/committee1920/Jignesh.jpg`,
+		name: 'Jignesh Thakur',
 		position: 'Joint Treasurer',
 	},
 	{
-		src: withBaseDir`/static/images/photos/rohan.jpg`,
-		name: 'Rohan Poojari',
+		src: withBaseDir`/static/images/photos/committee1920/Palak.jpg`,
+		name: 'Palak Gosalia',
 		position: 'Events Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/utsavi.jpg`,
-		name: 'Utsavi Sevak',
+		src: withBaseDir`/static/images/photos/committee1920/Rohit.jpg`,
+		name: 'Rohit Singh',
 		position: 'Events Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/dhruti.jpg`,
-		name: 'Dhruti Kuvar',
+		src: withBaseDir`/static/images/photos/committee1920/Krupa.jpg`,
+		name: 'Krupa Shah',
+		position: 'Events Head',
+	},
+	{
+		src: withBaseDir`/static/images/photos/committee1920/Riya.jpg`,
+		name: 'Riya Kothari',
 		position: 'Creatives Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/pratiksha.jpg`,
-		name: 'Pratiksha Chotalia',
+		src: withBaseDir`/static/images/photos/committee1920/Yash.jpg`,
+		name: 'Yash Maniyar',
 		position: 'Creatives Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/priyal.jpg`,
-		name: 'Priyal Dani',
+		src: withBaseDir`/static/images/photos/committee1920/Moksha.jpg`,
+		name: 'Moksha Vora',
 		position: 'Publiciy Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/neha.jpg`,
-		name: 'Neha Shah',
+		src: withBaseDir`/static/images/photos/committee1920/Divyashree.jpg`,
+		name: 'Divyashree Bhadsale',
 		position: 'Publiciy Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/shreya.jpg`,
-		name: 'Shreya Nair',
+		src: withBaseDir`/static/images/photos/committee1920/Jaipal.jpg`,
+		name: 'Jaipal Daswani',
+		position: 'Publiciy Head',
+	},
+	{
+		src: withBaseDir`/static/images/photos/committee1920/Jinal.jpg`,
+		name: 'Jinal Soni',
 		position: 'Editorial Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/manali.jpeg`,
-		name: 'Manali Salvi',
+		src: withBaseDir`/static/images/photos/committee1920/Sejal.jpg`,
+		name: 'Sejal Mehta',
 		position: 'Editorial Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/maitri.jpg`,
-		name: 'Maitri Gohil',
+		src: withBaseDir`/static/images/photos/committee1920/Ritik.jpg`,
+		name: 'Ritik Shah',
 		position: 'Tech Head',
 	},
 	{
-		src: withBaseDir`/static/images/photos/sanya.jpg`,
-		name: 'Sanya Khare',
+		src: withBaseDir`/static/images/photos/committee1920/Meet.jpg`,
+		name: 'Meet Savla',
 		position: 'Tech Head',
 	},																																	
 ];
 
 export default () => (
-    <BasicNavLayout title="Committee" className="Main">
+    <BasicNavLayout title="Committee 2019-20" className="Main">
 			    <br/><br/>
 			    <div className="container">
-			    	<h3 className="Heading">NSS Committee</h3>
+			    	<h3 className="Heading">NSS Committee 2019-20</h3>
 			    </div>
 			    <br/><br/>			    
 			    <center>

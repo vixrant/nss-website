@@ -5,6 +5,6 @@ module.exports = withCSS({
     cssModules: 0,
     assetPrefix: "/nss/",
     env: {
-        BASE_DIR: "/nss",
+        BASE_DIR: "/nss/",
     }
 })
