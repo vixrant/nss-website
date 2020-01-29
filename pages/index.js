@@ -10,16 +10,26 @@ import '../static/css/index.css';
 
 export default () => (
 	<BasicNavLayout title="Home" className="Main">
+			<Container fluid>
+				<Row>
+					<Col class="p-0">
+						<img src={withBaseDir`/static/images/upcoming.png`} style={{
+							width: '100%',
+							height: 'auto',
+						}} />
+					</Col>
+				</Row>
+			</Container>
 	    <Carousel />
-	        <Container>
-	        	<br/><br/><br/>
+	    <Container>
+	      <br/><br/><br/>
 				<Row>
 					<Col>
 						<Jumbotron className="homeInfo">
 							<h2 className="display-5">Not Me, But You!</h2>
 							<hr className="my-2" />		        
 							<p className="lead wow slideInLeft">
-								The National Service Scheme (NSS) has been enthusiastically conducting activities to help people from the past 49 years. It was launched on Gandhiji's centenary year to continue his ideas of community service among the youth of our nation. NSS is a student association of the youth studying in university.
+								The National Service Scheme (NSS) has been enthusiastically conducting activities to help people from the past 50 years. It was launched on Gandhiji's centenary year to continue his ideas of community service among the youth of our nation. NSS is a student association of the youth studying in university.
 							</p>
 							<p className="lead wow slideInRight">
 								One such student organisations is DJNSS, the NSS unit  of Dwarkadas J. Sanghvi college of Engineering, Vile Parle (W). With a unique motto " Help, Connect, Inspire ", the organisation has been helping people enthusiastically for the past 8 years and have a vision to continue ahead. 

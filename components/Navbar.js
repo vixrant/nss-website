@@ -16,17 +16,6 @@ import './Navbar.css';
 
 import { withBaseDir } from '../util/helpers';
 
-const linksArray = [
-    {
-        text: 'Camp',
-        href: '/camp',
-    },
-    {
-        text: 'About Us',
-        href: '/about',
-    },
-];
-
 export default class CustomNavbar extends React.Component {
     state = {
         isCollapsed: false,
@@ -97,13 +86,23 @@ export default class CustomNavbar extends React.Component {
                         </DropdownMenu>
                     </UncontrolledDropdown>
 
-                    <NavItem className="NavLink">
-                        <NavLink 
-                            className="mx-3"
-                            href={withBaseDir('/camp')}>
+                    <UncontrolledDropdown className="NavLink" nav inNavbar>
+                        <DropdownToggle className="mx-3" nav caret>
                             Camp
-                        </NavLink>
-                    </NavItem>
+                        </DropdownToggle>
+                        <DropdownMenu right>
+                            <DropdownItem className="NavLink">
+                                <NavLink href={withBaseDir`/camp`}>
+                                    2019-20
+                                </NavLink>
+                            </DropdownItem>
+                            <DropdownItem className="NavLink">
+                                <NavLink href={withBaseDir`/camp1819`}>
+                                    2018-19
+                                </NavLink>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledDropdown> 
 
                     <UncontrolledDropdown className="NavLink" nav inNavbar>
                         <DropdownToggle className="mx-3" nav caret>

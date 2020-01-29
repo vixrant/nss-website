@@ -16,6 +16,11 @@ const ReportsTable = () => (
         <tbody>
             <tr>
                 <td>
+                    <a href={withBaseDir`/static/documents/report19-20.pdf`} target="_blank">2019 - 2020</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <a href={withBaseDir`/static/documents/report18-19.pdf`} target="_blank">2018 - 2019</a>
                 </td>
             </tr>

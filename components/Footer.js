@@ -59,7 +59,7 @@ const Footer = () => (
 		<footer className="Footer">
 			<img src={withBaseDir`/static/images/FRONT.png`} className="Tree" />
 		</footer>
-		<div className="Copyright"> © DJSCE NSS Unit, 2019 </div>
+		<div className="Copyright"> © DJSCE NSS Unit - 2020 </div>
 	</div>
 );
 
