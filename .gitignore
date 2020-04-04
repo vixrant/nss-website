@@ -2,4 +2,5 @@
 out/
 nss/
 
+.DS_Store
 node_modules/

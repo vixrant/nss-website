@@ -21,7 +21,7 @@ const infoTeam = [
 		position: 'Co-Chairperson',
 	},
 	{
-		src: withBaseDir`/static/images/photos/committee1920/Maitri.jpg`,
+		src: withBaseDir`/static/images/photos/committee1920/Maitri.png`,
 		name: 'Maitri Shah',
 		position: 'Secretary',
 	},
@@ -78,17 +78,17 @@ const infoTeam = [
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Moksha.jpg`,
 		name: 'Moksha Vora',
-		position: 'Publiciy Head',
+		position: 'Publicity Head',
 	},
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Divyashree.jpg`,
 		name: 'Divyashree Bhadsale',
-		position: 'Publiciy Head',
+		position: 'Publicity Head',
 	},
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Jaipal.jpg`,
 		name: 'Jaipal Daswani',
-		position: 'Publiciy Head',
+		position: 'Publicity Head',
 	},
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Jinal.jpg`,
@@ -103,12 +103,12 @@ const infoTeam = [
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Ritik.jpg`,
 		name: 'Ritik Shah',
-		position: 'Tech Head',
+		position: 'Technical Head',
 	},
 	{
 		src: withBaseDir`/static/images/photos/committee1920/Meet.jpg`,
 		name: 'Meet Savla',
-		position: 'Tech Head',
+		position: 'Technical Head',
 	},																																	
 ];
 

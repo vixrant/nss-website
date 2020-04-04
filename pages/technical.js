@@ -7,7 +7,7 @@ import { withBaseDir } from '../util/helpers';
 const cardContent = [
 	{
 		src: withBaseDir`/static/images/technical/street.jpeg`,
-		title: 'Street Light Installation 2019-20',
+		title: 'Solar Street light installation 2019-20',
 		text: 'The NSS unit of D. J. Sanghvi College of Engineering successfully installed two integrated solar street lights in its adopted village-Narpad, Dahanu. As per the information collected by the Gram Panchayat, two locations which used to be quite dark after sunset were selected. First one being a meeting place and second, a road to beach near the temple. Poles of 15 feet were bought from Dahanu and Integrated solar lamps(20W) from Mumbai which consisted of a solar panel,battery,solar charge controller and LEDs.' ,
 	},
 	{
@@ -22,7 +22,7 @@ const cardContent = [
 	},
 	{
 		src: withBaseDir`/static/images/technical/pulley.jpg`,
-		title: 'Pulley Installation 2018-19' ,
+		title: 'Pulley installation 2018-19' ,
 		text: 'Pulley systems were installed on two most frequented village wells, one of which required laying of the foundation which was notably designed by the volunteers themselves. The pulley systems facilitated in lowering the villagers’ efforts by a great deal.' ,
 	},
 ];

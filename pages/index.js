@@ -10,16 +10,6 @@ import '../static/css/index.css';
 
 export default () => (
 	<BasicNavLayout title="Home" className="Main">
-			<Container fluid>
-				<Row>
-					<Col class="p-0">
-						<img src={withBaseDir`/static/images/upcoming.png`} style={{
-							width: '100%',
-							height: 'auto',
-						}} />
-					</Col>
-				</Row>
-			</Container>
 	    <Carousel />
 	    <Container>
 	      <br/><br/><br/>

@@ -14,7 +14,7 @@ const posInfo = [
 	},
 	{
 		name: "Prof. Rahul Tawre",
-		src: withBaseDir`/static/images/photos/tawre.jpeg`,
+		src: withBaseDir`/static/images/photos/tawre.png`,
 	},
 	{
 		name: "Prof. Alisha Banz",
